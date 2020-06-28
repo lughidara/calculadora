@@ -2,13 +2,8 @@
     width: 30%;
 }
 
-/* body{
-    color: white;
-} */
-
 section{
     
-        /*background-color: rgb(35, 33, 161); /* For browsers that do not support gradients */
         /*background-image: linear-gradient(to bottom right, rgb(0, 76, 255), rgb(72, 12, 95)); /* Standard syntax (must be last) */
         background-image: url(/img/calculadora.jpg);
     
