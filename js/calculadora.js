@@ -36,7 +36,7 @@ function calculadora(input) {
             break;
 
         //AC Y C
-        case "🡨":
+        case "←":
             pantalla.innerText = pantalla.innerText.substring(0, pantalla.innerText.length - 1);
             break;
         case "AC":
