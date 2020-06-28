@@ -37,7 +37,9 @@ function calculadora(input) {
 
         //AC Y C
         case "←":
-            pantalla.innerText = pantalla.innerText.substring(0, pantalla.innerText.length - 1);
+            if (pantalla.innerText != "Hello world!" && pantalla.innerText != "0") {
+                pantalla.innerText = pantalla.innerText.substring(0, pantalla.innerText.length - 1);
+            }
             break;
         case "AC":
             pantalla.innerText = "Hello world!";
